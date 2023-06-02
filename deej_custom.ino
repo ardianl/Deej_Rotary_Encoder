@@ -1,4 +1,4 @@
-// Rotary Encoder Pins
+// Rotary Encoder Pins - CLK and SW must go on interrupt pins, pins 2 and 3 for most Arduinos
 const int clkPin = 3;  // CLK pin
 const int dtPin = 15;  // DT pin
 const int swPin = 2;   // SW pin
